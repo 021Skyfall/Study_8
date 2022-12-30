@@ -69,5 +69,5 @@ public class Scenario {
         cafeOwner.giveItem(new ccC());
     }
 }
-// 이거 딱 다형성 + 추상화 + 인터페이스 내용 총집합임 ㄹㅇ ㅋㅋ
+// 이거 딱 다형성 + 인터페이스(추상화) 내용 총집합임 ㄹㅇ ㅋㅋ
 // 뿌듯하다
