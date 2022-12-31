@@ -39,7 +39,7 @@ class Customer {
     // 근데 이거 종류가 수백 수천 가지가 된다면? 매번 추가해야됨
     // 해결하기 위한 방법 중 하나로 다형성
     // ↓
-    void  buyCoffee (Coffee_Type coffeeType) {
+    void  buyCoffee (Coffee_Type coffeeType) { // 이게 = new Americano() 이거 까진 알겠는데 Customer에서 생성되는건지 메인 메소드에서 생성되는건지는 모르겟ㅅ다;
         if ( money < coffeeType.price) {
             System.out.println("잔액이 부족합니다.");
             return;
